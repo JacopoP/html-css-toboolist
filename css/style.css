@@ -4,9 +4,8 @@
     box-sizing: border-box;
 }
 
-.center-content{
-    padding-left: 10%;
-    padding-right: 10%;
+body{
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 /* header rules */
@@ -37,6 +36,11 @@ main{
     height: 650px;
 }
 
+.center-content{
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
 /* add section rules  */
 nav{
     border-bottom: 3px solid #F6F8F9;
@@ -61,7 +65,7 @@ nav input{
 /* list rules */
 
 .task-order{
-    margin-top: 20px;
+    margin-top: 30px;
 }
 
 .task-order h2{
@@ -70,23 +74,15 @@ nav input{
 
 .element-list{
     font-size: 25px;
-    margin: 5px 0;
-}
-
-.element-list .done{
-    color: #65C0A9;
-}
-
-.element-list .to-do{
-    color: #EB5851;
+    margin: 10px 0;
 }
 
 .task-type{
     display: inline-block;
-    font-size: 15px;
+    font-size: 12px;
     color: #fff;    
-    border-radius: 7px;
-    padding: 5px;
+    border-radius: 12px;
+    padding: 6px;
 }
 
 .task-type.editorial-color{
