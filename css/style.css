@@ -5,8 +5,8 @@
 }
 
 .center-content{
-    padding-left: 6%;
-    padding-right: 6%;
+    padding-left: 10%;
+    padding-right: 10%;
 }
 
 /* header rules */
@@ -33,6 +33,8 @@ main{
     width: 70%;
     margin: auto;
     padding-top: 20px;
+    border-radius: 10px;
+    height: 650px;
 }
 
 /* add section rules  */
@@ -52,10 +54,23 @@ nav .add-part{
     padding: 3.5px 6px;
 }
 
+nav input{
+    border-color: #F6F8F9;
+}
+
 /* list rules */
 
+.task-order{
+    margin-top: 20px;
+}
+
+.task-order h2{
+    font-size: 30px;
+}
+
 .element-list{
-    font-size: 20px;
+    font-size: 25px;
+    margin: 5px 0;
 }
 
 .element-list .done{
@@ -68,7 +83,7 @@ nav .add-part{
 
 .task-type{
     display: inline-block;
-    font-size: 12px;
+    font-size: 15px;
     color: #fff;    
     border-radius: 7px;
     padding: 5px;
