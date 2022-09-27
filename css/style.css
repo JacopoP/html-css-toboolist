@@ -3,3 +3,51 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+.center-content{
+    padding-left: 6%;
+    padding-right: 6%;
+}
+
+/* header rules */
+header{
+    padding:10px 20px;
+}
+
+h1{
+    display: inline;
+    vertical-align: top;
+    line-height: 50px;
+    font-size: 40px;
+}
+
+/* main rules */
+
+main{
+    background-color: #F6F8F9;
+    padding-top: 30px;
+}
+
+#container{
+    background-color: #fff;
+    width: 70%;
+    margin: auto;
+    padding-top: 20px;
+}
+
+/* add section rules  */
+nav{
+    border-bottom: 1px solid #F6F8F9;
+    padding-bottom: 8px;
+}
+
+nav button{
+    background-color: #47ADF1;
+    color: #fff;
+    border-color: #47ADF1;
+}
+
+nav .add-part{
+    border-radius: 5px;
+    padding: 3.5px 6px;
+}
