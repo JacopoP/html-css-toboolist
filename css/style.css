@@ -37,7 +37,7 @@ main{
 
 /* add section rules  */
 nav{
-    border-bottom: 1px solid #F6F8F9;
+    border-bottom: 3px solid #F6F8F9;
     padding-bottom: 8px;
 }
 
@@ -50,4 +50,50 @@ nav button{
 nav .add-part{
     border-radius: 5px;
     padding: 3.5px 6px;
+}
+
+/* list rules */
+
+.element-list{
+    font-size: 20px;
+}
+
+.element-list .done{
+    color: #65C0A9;
+}
+
+.element-list .to-do{
+    color: #EB5851;
+}
+
+.task-type{
+    display: inline-block;
+    font-size: 12px;
+    color: #fff;    
+    border-radius: 7px;
+    padding: 5px;
+}
+
+.task-type.editorial-color{
+    background-color: #47ADF1;
+}
+
+.task-type.q1-color{
+    background-color: #9C72E4;
+}
+
+.task-type.recruiting-color{
+    background-color: #64C0A9;
+}
+
+.task-type.mobile-color{
+    background-color: #F29E33;
+}
+
+.task-type.website-color{
+    background-color: #D863A1;
+}
+
+.task-type.sale-color{
+    background-color: #B0C926;
 }
