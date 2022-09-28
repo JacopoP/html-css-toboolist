@@ -64,12 +64,39 @@ nav input{
 
 /* list rules */
 
+.checkbox.done::before{
+    content: "\2713";
+    color: #64C0A9;
+    border: 2px solid #64C0A9;
+}
+
+.checkbox.cancel::before{
+    content: "\2715";
+    color: red;
+    border: 2px solid red;
+}
+
+.checkbox::before{
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    font-size: 12px;
+    border-radius: 50%; 
+    line-height: 15px;
+    text-align: center;
+    font-weight: 600;
+}
+
 .task-order{
     margin-top: 30px;
 }
 
 .task-order h2{
     font-size: 30px;
+}
+
+.task-order h2:before{
+    content: "\25BC";
 }
 
 .element-list{
